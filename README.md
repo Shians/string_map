@@ -12,9 +12,11 @@ download.file("https://github.com/shians/string_map/raw/main/string_map.R", "src
 
 ## Example
 
+```r
 wrapper <- StringMap(
     keys = paste0("key", 1:1e5),
     values = paste0("value", 1:1e5)
 )
 
 get_val(wrapper, key = c("key1", "foo", "bar", "key10", "key100"))
+```
