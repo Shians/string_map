@@ -7,7 +7,7 @@ This pair of scripts is used to add the ability to create an efficient lookup ta
 To include this into your package use this from your R package root:
 ```
 download.file("https://github.com/shians/string_map/raw/main/string_map.R", "R/string_map.R")
-download.file("https://github.com/shians/string_map/raw/main/string_map.R", "src/string_map.cpp")
+download.file("https://github.com/shians/string_map/raw/main/string_map.cpp", "src/string_map.cpp")
 ```
 
 ## Example
